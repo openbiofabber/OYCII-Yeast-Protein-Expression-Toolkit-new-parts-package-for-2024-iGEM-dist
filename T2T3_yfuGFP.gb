@@ -1,0 +1,63 @@
+LOCUS       T2T3_yfuGFP              765 bp    DNA     linear   SYN 30-NOV-2023
+DEFINITION  Free-Use GFP (fuGFP) detection fusion protein from the E. coli
+            Protein Expression Toolkit, defined as a T2C part.
+ACCESSION   .
+VERSION     .
+KEYWORDS    Yeast Protein Expression Toolkit, OpenMTA, Golden Gate Assembly, iGEM.
+SOURCE      .
+  ORGANISM  .
+            .
+COMMENT     Codon optimized for Yeast. Sequences were sanitized for PacI, SpeI,
+            BsaI, BbsI, BsmBI, and SapI restriction sites. Parts are flanked by
+            PacI and SpeI to permit transfer to the SEVA family of vectors.
+            Final sequences designed by Ian Cavén and Scott Pownall of Open
+            Science Network Society. Based on a part in the OpenBioeconomy Lab's 
+            E. coli Protein Expression Toolkit.
+FEATURES             Location/Qualifiers
+     protein_bind    1..8
+                     /label="PacI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    9..14
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     misc_feature    16..19
+                     /label="T2"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+     CDS             20..748
+                     /label="T2T3_yfuGFP"
+                     /gene="T2T3_yfuGFP"
+                     /translation="GGSVSSGEDIFSGLVPILIELEGDVNGHRFSVRGEGYGDASNGKL
+                     EIKFICTTGRLPVPWPTLVTTLSYGVQCFAKYPEHMRQNDFFKSAMPDGYVQERTISFK
+                     EDGTYKTRAEVKFEGEALVNRIDLKGLEFKEDGNILGHKLEYSFNSHYVYITADKNRNG
+                     LEAQFRIRHNVDDGSVQLADHYQQNTPIGEGPVLLPEQHYLTTNSVLSKDPQERRDHMV
+                     LVEFVTAAGLSLGMDELYKSG"
+     misc_feature    749..752
+                     /label="T3"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+     protein_bind    complement(754..759)
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     protein_bind    760..765
+                     /label="SpeI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+ORIGIN
+        1 TTAATTAAGG TCTCcGTCAg gaggttctgt ttcttccggt gaagatatct tctctggatt
+       61 ggttcccatt ctgattgaat tggagggcga tgtgaatgga catagattct ctgttagggg
+      121 tgaaggttat ggtgatgctt ctaacggcaa actggagatc aagttcattt gtaccaccgg
+      181 tagattgcca gttccatggc caactttggt tactactctg tcttacggtg ttcaatgctt
+      241 cgctaaatac ccagaacaca tgaggcagaa tgacttcttc aagtctgcta tgccagatgg
+      301 atatgttcag gaaaggacca tctccttcaa agaggatggt acttacaaga ccagggccga
+      361 agttaaattt gaaggtgaag ccctggtgaa tcgtatcgac ttgaaaggtt tggagttcaa
+      421 ggaagatggc aacattcttg gacacaaact ggagtactcc ttcaattccc actacgtcta
+      481 tatcactgct gacaaaaacc gtaacggatt ggaagctcaa ttcagaatca ggcacaatgt
+      541 tgacgatggt tctgttcaat tggctgatca ttaccagcag aacactccaa ttggtgaagg
+      601 accagttttg ttgccagaac aacattacct gaccactaac tctgttctgt ctaaagatcc
+      661 acaggaaaga agggatcaca tggttctggt tgaatttgtt accgctgctg gattgtcttt
+      721 gggcatggac gaactgtata aatctgggTC CAaGAGACCA CTAGT
+//

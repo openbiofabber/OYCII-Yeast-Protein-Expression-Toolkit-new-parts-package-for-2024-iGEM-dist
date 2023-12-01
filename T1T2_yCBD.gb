@@ -1,0 +1,82 @@
+LOCUS       T1T2_yCBD               1611 bp    DNA     linear   SYN 30-NOV-2023
+DEFINITION  Chitin Binding Domain (CBD) N-terminal purification tag from the E.
+            coli Protein Expression Toolkit, defined as a T1T2 part.
+ACCESSION   .
+VERSION     .
+KEYWORDS    Yeast Protein Expression Toolkit, OpenMTA, Golden Gate Assembly, iGEM.
+SOURCE      .
+  ORGANISM  .
+            .
+COMMENT     Codon optimized for Yeast. Sequences were sanitized for PacI, SpeI,
+            BsaI, BbsI, BsmBI, and SapI restriction sites. Parts are flanked by
+            PacI and SpeI to permit transfer to the SEVA family of vectors.
+            Final sequences designed by Ian Cavén and Scott Pownall of Open
+            Science Network Society. Based on a part in the OpenBioeconomy Lab's 
+            E. coli Protein Expression Toolkit.
+FEATURES             Location/Qualifiers
+     protein_bind    1..8
+                     /label="PacI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    9..14
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     misc_feature    16..19
+                     /label="T1"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+     CDS             21..1592
+                     /label="T1T2_yCBD"
+                     /gene="T1T2_yCBD"
+                     /translation="KIEEGKLVIGSLEGCFAKGTNVLMADGSIECIENIEVGNKVMGKD
+                     GRPREVIKLPRGRETMYSVVQKSQHRAHKSDSSREVPELLKFTCNATHELVVRTPRSVR
+                     RLSRTIKGVEYFEVITFEMGQKKAPDGRIVELVKEVSKSYPISEGPERANELVESYRKA
+                     SNKAYFEWTIEARDLSLLGSHVRKATYQTYAPILYENDHFFDYMQKSKFHLTIEGPKVL
+                     AYLLGLWIGDGLSDRATFSVDSRDTSLMERVTEYAEKLNLCAEYKDRKEPQVAKTVNLY
+                     SKVVRGASTNPGVSAWQVNTAYTAGQLVTYNGKTYKCLQPHTSLAGWEPSNVPALWQLQ
+                     GGHGGIRNNLNTENPLWDAIVGLGFLKDGVKNIPSFLSTDNIGTRETFLAGLIDSDGYV
+                     TDEHGIKATIKTIHTSVRDGLVSLARSLGLVVSVNAEPAKVDMNVTKHKISYAIYMSGG
+                     DVLLNVLSKCAGSKKFRPAPAAAFARECRGFYFELQELKEDDYYGITLSDDSDHQFLLG
+                     SQVVVQN"
+     misc_feature    1595..1598
+                     /label="T2"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+     protein_bind    complement(1600..1605)
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     protein_bind    1606..1611
+                     /label="SpeI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+ORIGIN
+        1 TTAATTAAGG TCTCcCCATg aagatcgaag aaggcaagtt ggttatcggt tctttggaag
+       61 gttgctttgc taagggtact aacgttctga tggctgacgg ttccattgaa tgcatcgaaa
+      121 acatcgaggt tggtaacaag gttatgggta aggatggtag accacgtgaa gttatcaagt
+      181 tgccaagagg tcgcgaaact atgtactctg ttgtccaaaa gtcccaacat agagctcaca
+      241 agtctgattc ttctcgtgaa gttccagaac tgttgaagtt cacctgtaac gctactcatg
+      301 aattggttgt tcgtactcca agatctgttc gtagactgtc tcgtaccatt aagggtgtcg
+      361 agtactttga ggtcatcact ttcgaaatgg gtcaaaagaa ggctccagat ggtagaattg
+      421 tcgaactggt caaggaagtc tctaagtctt acccaatctc tgaaggtcca gaaagagcca
+      481 acgagttggt tgaatcttac cgtaaggctt ctaacaaggc ttactttgag tggaccattg
+      541 aagctcgtga tttgtctttg ttgggttctc atgtccgtaa ggctacttac caaacttacg
+      601 ctccaatcct gtacgaaaac gatcacttct tcgactacat gcagaagtcc aagtttcatc
+      661 tgactatcga aggtccaaag gttttggctt acttgttggg tttgtggatt ggtgatggtt
+      721 tgtctgatag agctaccttc tctgttgatt ctagagatac ctctctgatg gaacgtgtta
+      781 ctgagtacgc tgaaaagctg aacttgtgtg ctgagtacaa ggatagaaag gaaccacaag
+      841 ttgctaagac tgtcaacctg tactctaagg ttgttagagg tgcttctact aacccaggtg
+      901 tttctgcttg gcaagttaac actgcttaca ctgctggtca actggttacc tacaacggta
+      961 agacttacaa gtgtctgcaa ccacatactt ccttggctgg ttgggaacca tctaacgttc
+     1021 cagctttgtg gcaattgcaa ggtggtcatg gcggtatcag gaacaacttg aacactgaaa
+     1081 acccattgtg ggatgctatt gttggtttgg gtttcctgaa ggatggtgtt aagaacattc
+     1141 catccttcct gtctaccgat aacattggta ctcgtgagac ttttctggct ggtttgattg
+     1201 attccgatgg ctacgttact gatgaacacg gtattaaggc taccatcaag accattcaca
+     1261 cttctgttcg tgatggtctg gtttctttgg ctagatcttt gggtttggtt gtctccgtta
+     1321 acgctgaacc agctaaggtt gacatgaacg ttaccaagca caagatctct tacgccattt
+     1381 acatgtctgg tggtgatgtt ctgttgaacg ttctgtctaa gtgtgctggt tccaagaagt
+     1441 ttagaccagc tccagctgct gcttttgcta gagaatgccg tggtttctac tttgagttgc
+     1501 aagagctgaa ggaggatgac tactacggta ttactttgtc tgacgactcc gatcatcaat
+     1561 ttctgttggg ttctcaagtc gttgttcaaa acggGTCAaG AGACCACTAG T
+//

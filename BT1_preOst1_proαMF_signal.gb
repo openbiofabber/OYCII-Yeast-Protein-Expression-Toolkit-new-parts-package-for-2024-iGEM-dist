@@ -1,0 +1,52 @@
+LOCUS       BT1_preOst1_proαMF_signal 313 bp    DNA     linear   SYN 30-NOV-2023
+DEFINITION  S. cerevisiae Ost1 signal sequence paired with the α-factor pro
+            region defined as a BT1 part.
+ACCESSION   .
+VERSION     .
+KEYWORDS    Yeast Protein Expression Toolkit, OpenMTA, Golden Gate Assembly, iGEM
+SOURCE      .
+  ORGANISM  .
+            .
+COMMENT     Codon optimized for Yeast. Sequences were sanitized for PacI, SpeI,
+            BsaI, BbsI, BsmBI, and SapI restriction sites. Parts are flanked by
+            PacI and SpeI to permit transfer to the SEVA family of vectors.
+            Final sequences designed by Ian Cavén and Scott Pownall of Open
+            Science Network Society.
+FEATURES             Location/Qualifiers
+     protein_bind    1..8
+                     /label="PacI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    9..14
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     misc_feature    16..19
+                     /label="B"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+     CDS             20..295
+                     /label="BT1_preOst1_proαMF_signal"
+                     /gene="BT1_preOst1_proαMF_signal"
+                     /translation="MRQVWFSWIVGLFLCFFNVSSAAPVNTTTEDETAQIPAEAVIGYS
+                     DLEGDFDVAVLPFSNSTNNGLLFINTTIASIAAKEEGVSLEKREAEA"
+     misc_feature    297..300
+                     /label="T1"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+     protein_bind    complement(302..307)
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     protein_bind    308..313
+                     /label="SpeI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+ORIGIN
+        1 TTAATTAAGG TCTCcTACTa tgaggcaggt ttggttctct tggattgtgg gattgttcct
+       61 atgttttttc aacgtttctt ctgctgctcc agtcaacact acaacagaag atgaaacggc
+      121 acaaattccg gctgaagctg tcatcggtta ctcagattta gaaggggatt tcgatgttgc
+      181 tgttttgcca ttttccaaca gcacaaataa cgggttattg tttataaata ctactattgc
+      241 cagcattgct gctaaagaag aaggggtatc tctcgagaaa agagaggctg aagcttCCAT
+      301 aGAGACCACT AGT
+//

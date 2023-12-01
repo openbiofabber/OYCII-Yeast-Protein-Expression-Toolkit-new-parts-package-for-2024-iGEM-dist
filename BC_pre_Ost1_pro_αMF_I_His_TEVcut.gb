@@ -1,0 +1,61 @@
+LOCUS       BC_pre_Ost1_pro_αMF_I_His_TEVcut 356 bp    DNA     linear   SYN 28-NOV-2023
+DEFINITION  S. cerevisiae Ost1 signal sequence paired with the α-mating factor pro
+            region with His purification tag and TEV cleavage linker. Defined as
+            a BC part. 
+ACCESSION   .
+VERSION     .
+KEYWORDS    Yeast Protein Expression Toolkit, OpenMTA, Golden Gate Assembly, iGEM
+SOURCE      .
+  ORGANISM  .
+            .
+REFERENCE   1  (bases 20 to 337)
+  AUTHORS   Juan J Barrero, Jason C Casler, Francisco Valero, Pau Ferrer,
+            Benjamin S Glick.
+  TITLE     An improved secretion signal enhances the secretion of model
+            proteins from Pichia pastoris.
+  JOURNAL   Microb Cell Fact. 2018 Oct 12;17(1):161 PubMed ID: 30314480 doi:
+            10.1186/s12934-018-1009-5.
+COMMENT     Codon optimized for Yeast. Sequences were sanitized for PacI, SpeI,
+            BsaI, BbsI, BsmBI, and SapI restriction sites. Parts are flanked by 
+            PacI and SpeI to permit transfer to the SEVA family of vectors. Final 
+            sequences designed by Ian Cavén and Scott Pownall of Open Science Network 
+            Society.
+FEATURES             Location/Qualifiers
+     protein_bind    1..8
+                     /label="PacI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    9..14
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     misc_feature    16..19
+                     /label="B"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+     CDS             20..337
+                     /label="BC_pre_Ost1_pro_αMF_I_His_TEVcut"
+                     /gene="BC_pre_Ost1_pro_αMF_I_His_TEVcut"
+                     /translation="MRQVWFSWIVGLFLCFFNVSSAAPVNTTTEDETAQIPAEAVIGYS
+                     DLEGDFDVAVLPFSNSTNNGLLFINTTIASIAAKEEGVSLEKREAEAGHHHHHHGENLY
+                     FQ"
+     misc_feature    340..343
+                     /label="C"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+     protein_bind    complement(345..350)
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     protein_bind    351..356
+                     /label="SpeI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+ORIGIN
+        1 TTAATTAAGG TCTCcTACTa tgaggcaggt ttggttctct tggattgtgg gattgttcct
+       61 atgttttttc aacgtttctt ctgctgctcc agtcaacact acaacagaag atgaaacggc
+      121 acaaattccg gctgaagctg tcatcggtta ctcagattta gaaggggatt tcgatgttgc
+      181 tgttttgcca ttttccaaca gcacaaataa cgggttattg tttataaata ctactattgc
+      241 cagcattgct gctaaagaag aaggggtatc tctcgagaaa agagaggctg aagctggaca
+      301 tcaccatcac catcacggag agaatctgta ctttcaaggA ATGgGAGACC ACTAGT
+//

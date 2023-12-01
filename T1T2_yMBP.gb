@@ -1,0 +1,71 @@
+LOCUS       T1T2_yMBP               1137 bp    DNA     linear   SYN 30-NOV-2023
+DEFINITION  Maltose binding protein (MBP) N-terminal purification tag from the
+            E. coli Protein Expression Toolkit, defined as a T1T2 part.
+ACCESSION   .
+VERSION     .
+KEYWORDS    Yeast Protein Expression Toolkit, OpenMTA, Golden Gate Assembly, iGEM.
+SOURCE      .
+  ORGANISM  .
+            .
+COMMENT     Codon optimized for Yeast. Sequences were sanitized for PacI, SpeI,
+            BsaI, BbsI, BsmBI, and SapI restriction sites. Parts are flanked by
+            PacI and SpeI to permit transfer to the SEVA family of vectors.
+            Final sequences designed by Ian Cavén and Scott Pownall of Open
+            Science Network Society. Based on a part in the OpenBioeconomy Lab's 
+            E. coli Protein Expression Toolkit.
+FEATURES             Location/Qualifiers
+     protein_bind    1..8
+                     /label="PacI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    9..14
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     misc_feature    16..19
+                     /label="T1"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+     CDS             21..1118
+                     /label="T1T2_yMBP"
+                     /gene="T1T2_yMBP"
+                     /translation="KIEEGKLVIWINGDKGYNGLAEVGKKFEKDTGIKVTVEHPDKLEE
+                     KFPQVAATGDGPDIIFWAHDRFGGYAQSGLLAEITPDKAFQDKLYPFTWDAVRYNGKLI
+                     AYPIAVEALSLIYNKDLLPNPPKTWEEIPALDKELKAKGKSALMFNLQEPYFTWPLIAA
+                     DGGYAFKYENGKYDIKDVGVDNAGAKAGLTFLVDLIKNKHMNADTDYSIAEAAFNKGET
+                     AMTINGPWAWSNIDTSKVNYGVTVLPTFKGQPSKPFVGVLSAGINAASPNKELAKEFLE
+                     NYLLTDEGLEAVNKDKPLGAVALKSYEEELAKDPRIAATMENAQKGEIMPNIPQMSAFW
+                     YAVRTAVINAASGRQTVDEALKDAQT"
+     misc_feature    1121..1124
+                     /label="T2"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+     protein_bind    complement(1126..1131)
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     protein_bind    1132..1137
+                     /label="SpeI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+ORIGIN
+        1 TTAATTAAGG TCTCcCCATg aagattgagg aaggtaagtt ggtcatctgg attaacggcg
+       61 ataagggtta caacggtttg gctgaagttg gtaagaagtt cgagaaggat accggcatta
+      121 aggttactgt tgagcatccc gataagttgg aagagaagtt tccacaggtt gctgctactg
+      181 gtgatggtcc agatattatc ttctgggctc atgatcgctt tggtggttac gctcaatctg
+      241 gtttgttggc tgaaattact ccagacaagg cttttcagga caagttgtac ccatttacct
+      301 gggatgctgt tagatacaac ggcaagctga ttgcttaccc aattgctgtt gaagctctgt
+      361 ccctgatcta caacaaggat ttgttgccaa acccaccaaa gacttgggaa gaaattccag
+      421 ctttggacaa ggaactgaag gctaagggta agtctgcttt gatgttcaac ctgcaagaac
+      481 cctactttac ttggccattg attgctgctg atggtggtta cgctttcaag tacgaaaacg
+      541 gcaagtacga catcaaggat gttggtgttg ataacgctgg tgctaaggct ggtttgactt
+      601 ttctggtcga cctgatcaag aacaagcata tgaacgccga tactgattac tctatcgctg
+      661 aagctgcctt taacaagggt gaaactgcta tgaccatcaa cggtccatgg gcttggtcta
+      721 acattgacac ctccaaggtt aactacggtg ttactgtttt gccaaccttt aagggtcaac
+      781 catctaagcc attcgttggt gttttgtccg ctggtattaa cgctgcttct ccaaacaagg
+      841 aactggctaa ggaattcctg gaaaactact tgctgactga tgaaggtttg gaagccgtta
+      901 acaaggataa gccattgggt gctgttgctt tgaagtctta cgaggaagag ttggctaagg
+      961 atccaagaat tgctgctact atggaaaacg cccagaaggg tgaaattatg ccaaacattc
+     1021 cccagatgtc tgctttttgg tacgctgtta gaactgctgt cattaacgct gcttctggta
+     1081 gacaaactgt tgatgaagct ctgaaggatg ctcaaactgg GTCAaGAGAC CACTAGT
+//

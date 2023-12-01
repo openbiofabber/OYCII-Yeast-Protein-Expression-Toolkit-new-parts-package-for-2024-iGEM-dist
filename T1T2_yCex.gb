@@ -1,0 +1,54 @@
+LOCUS       T1T2_yCex                357 bp    DNA     linear   SYN 30-NOV-2023
+DEFINITION  Cex cellulose binding domain N-terminal purification tag from the E.
+            coli Protein Expression Toolkit, defined as a T1T2 part.
+ACCESSION   .
+VERSION     .
+KEYWORDS    Yeast Protein Expression Toolkit, OpenMTA, Golden Gate Assembly, iGEM.
+SOURCE      .
+  ORGANISM  .
+            .
+COMMENT     Codon optimized for Yeast. Sequences were sanitized for PacI, SpeI,
+            BsaI, BbsI, BsmBI, and SapI restriction sites. Parts are flanked by
+            PacI and SpeI to permit transfer to the SEVA family of vectors.
+            Final sequences designed by Ian Cavén and Scott Pownall of Open
+            Science Network Society. Based on a part in the OpenBioeconomy Lab's 
+            E. coli Protein Expression Toolkit.
+FEATURES             Location/Qualifiers
+     protein_bind    1..8
+                     /label="PacI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    9..14
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     misc_feature    16..19
+                     /label="T1"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+     CDS             21..338
+                     /label="T1T2_yCex"
+                     /gene="T1T2_yCex"
+                     /translation="PAGCQVLWGVNQWNTGFTANVTVKNTSSAPVDGWTLTFSFPSGQQ
+                     VTQAWSSTVTQSGSAVTVRNAPWNGSIPAGGTAQFGFNGSHTGTNAAPTAFSLNGTPCT
+                     VG"
+     misc_feature    341..344
+                     /label="T2"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+     protein_bind    complement(346..351)
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     protein_bind    352..357
+                     /label="SpeI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+ORIGIN
+        1 TTAATTAAGG TCTCcCCATg ccagctggtt gtcaagtttt gtggggtgtt aaccagtgga
+       61 acactggttt tactgctaac gttaccgtca agaacacttc ttctgctcca gttgatggct
+      121 ggactttgac tttttccttt ccatctggtc agcaagttac tcaagcctgg tctagtactg
+      181 ttactcaatc tggttctgct gttactgttc gtaacgctcc atggaacggt tctattccag
+      241 ctggtggtac tgctcaattt ggtttcaacg gttctcatac cggtactaac gctgctccaa
+      301 ctgctttttc tttgaacggt actccatgta ccgttggtgg GTCAaGAGAC CACTAGT
+//

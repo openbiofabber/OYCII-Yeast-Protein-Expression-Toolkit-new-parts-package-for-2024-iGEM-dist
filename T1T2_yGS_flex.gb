@@ -1,0 +1,55 @@
+LOCUS       T1T2_yGS_flex            300 bp    DNA     linear   SYN 30-NOV-2023
+DEFINITION  GS N-terminal flexible linker from the E. coli Protein Expression
+            Toolkit, defined as a T1T2 part.
+ACCESSION   .
+VERSION     .
+KEYWORDS    Yeast Protein Expression Toolkit, OpenMTA, Golden Gate Assembly, iGEM.
+SOURCE      .
+  ORGANISM  .
+            .
+COMMENT     Codon optimized for Yeast. Sequences were sanitized for PacI, SpeI,
+            BsaI, BbsI, BsmBI, and SapI restriction sites. Parts are flanked by
+            PacI and SpeI to permit transfer to the SEVA family of vectors.
+            Final sequences designed by Ian Cavén and Scott Pownall of Open
+            Science Network Society. Based on a part in the OpenBioeconomy Lab's 
+            E. coli Protein Expression Toolkit.
+FEATURES             Location/Qualifiers
+     protein_bind    1..8
+                     /label="PacI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    9..14
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     misc_feature    16..19
+                     /label="T1"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+     CDS             21..50
+                     /label="T1T2_yGS_flex"
+                     /gene="T1T2_yGS_flex"
+                     /translation="GGGSGGGSGG"
+     misc_feature    53..56
+                     /label="T2"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+     protein_bind    complement(58..63)
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     protein_bind    64..69
+                     /label="SpeI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     misc_feature    70..300
+                     /label="random sequence"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+ORIGIN
+        1 TTAATTAAGG TCTCcCCATg ggtggtggtt ctggtggtgg ttctggtggt ggGTCAaGAG
+       61 ACCACTAGTt aatcgggcaa ctggcatttg aagtaatgcg tatttcgcgc cctccactgg
+      121 cgatatgtgt ttaagggacc agtgaagcgt tactattgag atgctcggtg tccccagctc
+      181 ccaactcact ggacgggacg tctagggttc caactgatag cgagcgcgca ctgtggctta
+      241 gtcctggtgc tccaagcaaa cccctcctaa gattcgcatc gttacgtcca ctctaataag
+//

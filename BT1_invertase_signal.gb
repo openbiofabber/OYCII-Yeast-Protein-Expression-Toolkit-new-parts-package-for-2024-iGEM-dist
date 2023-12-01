@@ -1,0 +1,54 @@
+LOCUS       BT1_invertase_signal     300 bp    DNA     linear   SYN 30-NOV-2023
+DEFINITION  Invertase secretion signal defined as a BT1 part.
+ACCESSION   .
+VERSION     .
+KEYWORDS    Yeast Protein Expression Toolkit, OpenMTA, Golden Gate Assembly, iGEM
+SOURCE      .
+  ORGANISM  .
+            .
+COMMENT     Codon optimized for Yeast. Sequences were sanitized for PacI, SpeI,
+            BsaI, BbsI, BsmBI, and SapI restriction sites. Parts are flanked by
+            PacI and SpeI to permit transfer to the SEVA family of vectors.
+            Final sequences designed by Ian Cavén and Scott Pownall of Open
+            Science Network Society.
+FEATURES             Location/Qualifiers
+     protein_bind    1..8
+                     /label="PacI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    9..14
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     misc_feature    16..19
+                     /label="B"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+     CDS             20..247
+                     /label="BT1_invertase_signal"
+                     /gene="BT1_invertase_signal"
+                     /translation="MLLQAFLFLLAGFAAKISAMRFPSIFTAVLFAASSALAAPVNTTT
+                     EDELEGDFDVAVLPFSASIAAKEEGVSLEKR"
+     misc_feature    249..252
+                     /label="T1"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+     protein_bind    complement(254..259)
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     protein_bind    260..265
+                     /label="SpeI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     misc_feature    266..300
+                     /label="random sequence"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+ORIGIN
+        1 TTAATTAAGG TCTCcTACTa tgttattgca agctttttta tttctgctgg caggttttgc
+       61 agcaaagatt tctgccatga gatttcctag tattttcact gctgtgctat ttgccgctag
+      121 ttccgctcta gctgctccag ttaatactac tactgaagat gaattggagg gtgacttcga
+      181 tgttgctgtt ctgccttttt ccgcttctat cgcagccaag gaagaaggtg tatccctaga
+      241 gaagcgttCC ATgGAGACCA CTAGTgcgta cggaatgcta gatagtccaa cggtctgcga
+//

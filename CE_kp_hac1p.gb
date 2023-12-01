@@ -1,0 +1,69 @@
+LOCUS       CE_kp_hac1p             1029 bp    DNA     linear   SYN 30-NOV-2023
+DEFINITION  Komagataella phaffi (Pichia pastoris) hac1p unfolded protein
+            response accessory protein for improving heterologous protein
+            expression., defined as a CE part.
+ACCESSION   .
+VERSION     .
+KEYWORDS    Yeast Protein Expression Toolkit, OpenMTA, Golden Gate Assembly, iGEM
+SOURCE      .
+  ORGANISM  .
+            .
+COMMENT     Codon optimized for Yeast. Sequences were sanitized for PacI, SpeI,
+            BsaI, BbsI, BsmBI, and SapI restriction sites. Parts are flanked by
+            PacI and SpeI to permit transfer to the SEVA family of vectors.
+            Final sequences designed by Ian Cavén and Scott Pownall of Open
+            Science Network Society.
+FEATURES             Location/Qualifiers
+     protein_bind    1..8
+                     /label="PacI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    9..14
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     misc_feature    16..19
+                     /label="C"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+     CDS             17..1009
+                     /label="CE_kp_hac1p"
+                     /gene="CE_kp_hac1p"
+                     /translation="MPVDSSHKTASPLPPRKRAKTEEEKEQRRVERILRNRRAAHASRE
+                     KKRRHVEFLENHVVDLESALQESAKATNKLKEIQDIIVSRLEALGGTVSDLDLTVPEVD
+                     FPKSSDLEPMSDLSTSSKSEKASTSTRRSLTEDLDEDDVAEYDDEEEDEELPRKMKVLN
+                     DKNKSTSIKQEKLNELPSPLSSDFSDVDEEKSTLTHLKLQQQQQQPVDNYVSTPLSLPE
+                     DSVDFINPGNLKIESDENFLLSSNTLQIKHENDTDYITTAPSGSINDFFNSYDISESNR
+                     LHHPAVMTDSSLHITAGSIGFFSLIGGGESSVAGRRSSVGTYQLTCIAIR"
+     misc_feature    1013..1016
+                     /label="E"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+     protein_bind    complement(1018..1023)
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     protein_bind    1024..1029
+                     /label="SpeI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+ORIGIN
+        1 TTAATTAAGG TCTCcAatgc ccgtagattc ttctcataag acagctagcc cacttccacc
+       61 tcgtaaaaga gcaaagacgg aagaagaaaa ggagcagcgt cgagtggaac gtatcctacg
+      121 taataggaga gcggcccatg cttccagaga gaagaaacga cgacacgttg aatttctgga
+      181 aaaccacgtc gtcgacctgg aatctgcact tcaagaatca gccaaagcca ctaacaagtt
+      241 gaaagaaata caagatatca ttgtttcaag gttggaagcc ttaggtggta ccgtttcaga
+      301 tttggattta acagttccgg aagtcgattt tcccaaatct tctgatttgg aacccatgtc
+      361 tgatctctca acttcttcga aatcggagaa agcatctaca tccactcgca gatctttgac
+      421 tgaggatctg gacgaagatg acgtcgctga atatgacgac gaagaagagg acgaagagtt
+      481 acccaggaaa atgaaagtct taaacgacaa aaacaagagc acatctatca agcaggagaa
+      541 gttgaatgaa cttccatctc ctttgtcatc cgatttttca gacgtagatg aagaaaagtc
+      601 aactctcaca catttaaagt tgcaacagca acaacaacaa ccagtagaca attatgtttc
+      661 tactcctttg agtttgccgg aggattcagt tgattttatt aacccaggta acttaaaaat
+      721 agagtccgat gagaacttct tgttgagttc aaatacttta caaataaaac acgaaaatga
+      781 caccgactac attactacag ctccatcagg ttccatcaat gattttttta attcttatga
+      841 cattagcgag tcgaatcggt tgcatcatcc agcagtgatg acggattcat ctttacacat
+      901 tacagcaggc tccatcggct ttttctcttt gattgggggg ggggaaagtt ctgtagcagg
+      961 gaggcgcagt tcagttggca catatcagtt gacatgcata gcgatcaggt aaGCTTcGAG
+     1021 ACCACTAGT
+//

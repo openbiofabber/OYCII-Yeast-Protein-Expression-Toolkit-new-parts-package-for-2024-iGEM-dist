@@ -1,0 +1,52 @@
+LOCUS       T1T2_yCalm               300 bp    DNA     linear   SYN 30-NOV-2023
+DEFINITION  Calmodulin binding peptide (calm) N-terminal purification tag from
+            the E. coli Protein Expression Toolkit, defined as a T1T2 part.
+ACCESSION   .
+VERSION     .
+KEYWORDS    Yeast Protein Expression Toolkit, OpenMTA, Golden Gate Assembly, iGEM
+SOURCE      .
+  ORGANISM  .
+            .
+COMMENT     Codon optimized for Yeast. Sequences were sanitized for PacI, SpeI,
+            BsaI, BbsI, BsmBI, and SapI restriction sites. Parts are flanked by
+            PacI and SpeI to permit transfer to the SEVA family of vectors.
+            Final sequences designed by Ian Cavén and Scott Pownall of Open
+            Science Network Society. Based on a part in the OpenBioeconomy Lab's 
+            E. coli Protein Expression Toolkit.
+FEATURES             Location/Qualifiers
+     protein_bind    1..8
+                     /label="PacI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    9..14
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     misc_feature    16..19
+                     /label="T1"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+     CDS             21..158
+                     /label="T1T2_yCalm"
+                     /gene="T1T2_yCalm"
+                     /translation="GVMPREETDSKTASPWKSARLMVHTVATFNSIKELNERWRSLQQL
+                     A"
+     misc_feature    161..164
+                     /label="T2"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+     protein_bind    complement(166..171)
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     protein_bind    172..177
+                     /label="SpeI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+ORIGIN
+        1 TTAATTAAGG TCTCcCCATg ggtgttatgc caagagaaga aaccgattcc aagactgctt
+       61 ctccatggaa gtctgctaga ttgatggttc atactgtcgc taccttcaac tccattaagg
+      121 aactgaacga acgttggaga tctttgcaac aattggctgg GTCAcGAGAC CACTAGTatc
+      181 gttgtttcgg gaggttgcgg gttctcgtgg tcgtaggttg aggcgtgtac tcgtctggaa
+      241 accagcgatc gtgcgaccta ttagtgcgat gacctgtttt gctccgtcac agctaggctc
+//

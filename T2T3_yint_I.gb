@@ -1,0 +1,58 @@
+LOCUS       T2T3_yint_I              552 bp    DNA     linear   SYN 30-NOV-2023
+DEFINITION  A mini intein based on the Mtu RecA intein defined as a T2T3 part.
+ACCESSION   .
+VERSION     .
+KEYWORDS    Yeast Protein Expression Toolkit, OpenMTA, Golden Gate Assembly, iGEM.
+SOURCE      .
+  ORGANISM  .
+            .
+COMMENT     Codon optimized for Yeast. Sequences were sanitized for PacI, SpeI,
+            BsaI, BbsI, BsmBI, and SapI restriction sites. Parts are flanked by
+            PacI and SpeI to permit transfer to the SEVA family of vectors.
+            Final sequences designed by Ian Cavén and Scott Pownall of Open
+            Science Network Society. Based on a part in the OpenBioeconomy Lab's 
+            E. coli Protein Expression Toolkit.
+FEATURES             Location/Qualifiers
+     protein_bind    1..8
+                     /label="PacI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    9..14
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     misc_feature    16..19
+                     /label="T2"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+     CDS             20..535
+                     /label="T2T3_yint_I"
+                     /gene="T2T3_yint_I"
+                     /translation="ISEFALAEGTRIFDPVTGTTHRIEDVVGGRKPIHVVAAAKDGTLH
+                     ARPVVSWFDQGTRDVIGLRIAGGAILWATPDHKVLTEYGWRAAGELRKGDRVAQPRRFD
+                     GFGDSAPIPARVQALADALDDKFLHDMLAEELRYSVIREVLPTRRARTFGLEVEELHTL
+                     VAEGVVVHN"
+     misc_feature    536..539
+                     /label="T3"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+     protein_bind    complement(541..546)
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     protein_bind    547..552
+                     /label="SpeI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+ORIGIN
+        1 TTAATTAAGG TCTCcGTCAa tttctgagtt cgctttggct gaaggaacta gaatcttcga
+       61 tccagttact ggtactactc atagaattga agatgttgtt ggaggtagga aaccaattca
+      121 tgttgttgct gctgctaagg atggaacttt gcatgctaga ccagttgttt cttggtttga
+      181 tcaaggaact cgtgatgtca ttggtttgag aattgctgga ggtgctattt tgtgggctac
+      241 tccagatcat aaggtcctga ctgaatatgg ttggagagct gctggtgaat tgagaaaagg
+      301 agatagagtt gcccaaccaa gaagatttga cggatttggc gattctgctc caattccagc
+      361 tagagttcaa gctcttgctg atgctttgga cgacaagttc ttgcatgaca tgttggctga
+      421 agaattgcgc tattctgtga ttagggaagt gttgccaact agaagggcta gaactttcgg
+      481 actggaagtt gaagaactgc atactttggt tgctgaaggt gttgttgttc acaacTCCAa
+      541 GAGACCACTA GT
+//

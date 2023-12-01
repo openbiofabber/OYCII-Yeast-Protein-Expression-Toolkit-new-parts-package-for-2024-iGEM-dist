@@ -1,0 +1,61 @@
+LOCUS       T2T3_ymCherryM10L        747 bp    DNA     linear   SYN 30-NOV-2023
+DEFINITION  mCherry with M10L mutation, defined as a T2T3 part.
+ACCESSION   .
+VERSION     .
+KEYWORDS    Yeast Protein Expression Toolkit, OpenMTA, Golden Gate Assembly, iGEM.
+SOURCE      .
+  ORGANISM  .
+            .
+COMMENT     Codon optimized for Yeast. Sequences were sanitized for PacI, SpeI,
+            BsaI, BbsI, BsmBI, and SapI restriction sites. Parts are flanked by
+            PacI and SpeI to permit transfer to the SEVA family of vectors.
+            Final sequences designed by Ian Cavén and Scott Pownall of Open
+            Science Network Society.
+FEATURES             Location/Qualifiers
+     protein_bind    1..8
+                     /label="PacI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    9..14
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     misc_feature    16..19
+                     /label="T2"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+     CDS             20..730
+                     /label="T2T3_ymCherryM10L"
+                     /gene="T2T3_ymCherryM10L"
+                     /translation="MVSKGEEDNLAIIKEFMRFKVHMEGSVNGHEFEIEGEGEGRPYEG
+                     TQTAKLKVTKGGPLPFAWDILSPQFMYGSKAYVKHPADIPDYLKLSFPEGFKWERVMNF
+                     EDGGVVTVTQDSSLQDGEFIYKVKLRGTNFPSDGPVMQKKTMGWEASSERMYPEDGALK
+                     GEIKQRLKLKDGGHYDAEVKTTYKAKKPVQLPGAYNVNIKLDITSHNEDYTIVEQYERA
+                     EGRHSTGGMDELYKG"
+     misc_feature    731..734
+                     /label="T3"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+     protein_bind    complement(736..741)
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     protein_bind    742..747
+                     /label="SpeI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+ORIGIN
+        1 TTAATTAAGG TCTCcGTCAa tggtgagcaa aggcgaagaa gataatctgg cgatcatcaa
+       61 ggagttcatg cgctttaaag tgcatatgga aggcagcgtg aatggccatg aatttgagat
+      121 tgaaggcgaa ggcgaaggcc gcccgtatga aggcacccag actgcgaaac tgaaagtgac
+      181 caaaggcggc ccgctgccgt ttgcatggga tattctgagc ccgcagttta tgtatggcag
+      241 caaggcgtat gtgaaacatc cggcggatat tccggattat ctgaagctga gctttccgga
+      301 aggctttaaa tgggaacgcg tgatgaactt cgaagatggc ggcgtggtga ccgtgaccca
+      361 ggatagcagc ctgcaggatg gcgaatttat ctacaaggtg aaactgcgcg gcaccaattt
+      421 tccgagcgat ggcccggtga tgcagaaaaa aaccatgggc tgggaagcga gcagcgaacg
+      481 catgtatccg gaagatggcg cgctgaaagg cgaaattaag cagcgcctga aactgaaaga
+      541 tggcggccat tatgatgcgg aagttaagac cacctacaag gcgaaaaaac cggtgcagct
+      601 gccgggcgca tacaacgtga acatcaagct ggatatcacc agccataatg aggattacac
+      661 catcgtggaa cagtatgaac gcgcggaagg ccgccatagc actggtggta tggatgaact
+      721 gtataaaggc TCCAaGAGAC CACTAGT
+//

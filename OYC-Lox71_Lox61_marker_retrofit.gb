@@ -1,0 +1,124 @@
+LOCUS       OYC_Lox71_Lox61_marker_retrofit  1007 bp    DNA     linear   UNC 26-JUL-2023
+DEFINITION  Adaptor system for retrofitting OYC yeast selection markers with 
+            Lox71/Lox61 sites. For removing markers post integration with Cre 
+            recombinase.
+ACCESSION   .
+VERSION     .
+KEYWORDS    Yeast Protein Expression Toolkit, OpenMTA, Golden Gate Assembly, iGEM
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+REFERENCE   1  (bases 1 to 310)
+  AUTHORS   Scott Pownall, Open Science Network Society
+  TITLE     Direct Submission 
+  JOURNAL   https://iGEM.org/
+REFERENCE   2  (bases 44 to 77 and 138 to 171)
+  AUTHORS   Stephen J Langer, A Paiman Ghafoori, Marshall Byrd, Leslie Leinwand
+  TITLE     A genetic screen identifies novel non-compatible loxP sites.
+  JOURNAL   Nucleic Acids Res. 2002 Jul 15;30(14):3067-77
+            PubMed ID: 12136089
+			doi: 10.1093/nar/gkf421
+REFERENCE   3  (bases 78 to 97 and 172 to 191)
+  AUTHORS   Subu K Subramanian, William P Russ, Rama Ranganathan 
+  TITLE     A set of experimentally validated, mutually orthogonal primers for 
+			combinatorially specifying genetic components.
+  JOURNAL   Synth Biol (Oxf). 2018 Jan 18;3(1):ysx008.
+            PubMed ID: 32995509
+			doi: 10.1093/synbio/ysx008
+COMMENT     OYC yeast selection markers can be cloned into the BsmBI sites via their 
+			BsaI sites.
+FEATURES             Location/Qualifiers
+     protein_bind    1..8
+                     /label="PacI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    10..15
+                     /label="XbaI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    17..22
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     misc_feature    24..27
+                     /label="S2"
+                     /ApEinfo_revcolor=#ffef86
+                     /ApEinfo_fwdcolor=#ffef86
+     misc_feature    28..61
+                     /label="Lox71 site"
+                     /ApEinfo_fwdcolor="#A9A9A9"
+                     /ApEinfo_revcolor="#A9A9A9"
+     primer_bind     complement(62..81)
+                     /label="Ortho-primer 162"
+                     /ApEinfo_fwdcolor="#0000CD"
+                     /ApEinfo_revcolor="#0000CD"
+     misc_feature    82..85
+                     /label="S2"
+                     /ApEinfo_revcolor=#00BFFF
+                     /ApEinfo_fwdcolor=#00BFFF
+     protein_bind    complement(87..92)
+                     /label="BsmBI"
+                     /ApEinfo_fwdcolor="#8B008B"
+                     /ApEinfo_revcolor="#8B008B"
+     promoter        103..137
+                     /label="J23100 promoter"
+                     /ApEinfo_fwdcolor="#006400"
+                     /ApEinfo_revcolor="#006400"
+     RBS             142..162
+                     /label="pET RBS"
+                     /note="efficient ribosome binding site from pJUMP & pET vectors"
+                     /ApEinfo_fwdcolor="#006400"
+                     /ApEinfo_revcolor="#006400"
+     CDS             170..898
+                     /label="suGFP"
+                     /translation="MVARKGEELFTGVVPILVELDGDVNGHKFSVRGEGEGDATNGKLT
+                     LKFICTTGKLPVPWPTLVTTLTYGVQCFARYPDHMKQHDFFKSAMPEGYVQERTISFKD
+                     DGTYKTRAEVKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNFNSHNVYITADKQKNGI
+                     KANFKIRHNVEDGSVQLADHYQQNTPIGDGPVLLPDNHYLSTQSVLSKDPNEKRDHMVL
+                     LEFVTAAGITHGMDELYKGS*"
+     protein_bind    926..931
+                     /label="BsmBI"
+                     /ApEinfo_fwdcolor="#8B008B"
+                     /ApEinfo_revcolor="#8B008B"
+     misc_feature    933..936
+                     /label="S3"
+                     /ApEinfo_revcolor=#00BFFF
+                     /ApEinfo_fwdcolor=#00BFFF
+     misc_feature    937..970
+                     /label="Lox66 site"
+                     /ApEinfo_fwdcolor="#A9A9A9"
+                     /ApEinfo_revcolor="#A9A9A9"
+     primer_bind     complement(971..990)
+                     /label="Ortho-primer 162"
+                     /ApEinfo_fwdcolor="#0000CD"
+                     /ApEinfo_revcolor="#0000CD"
+     misc_feature    991..994
+                     /label="S3"
+                     /ApEinfo_revcolor=#ffef86
+                     /ApEinfo_fwdcolor=#ffef86
+     protein_bind    complement(996..1001)
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     protein_bind    1002..1007
+                     /label="SpeI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+ORIGIN
+        1 TTAATTAAcT CTAGAcGGTC TCaAAGGTAC CGTTCGTATA atgtatgcTA TACGAAGTTA
+       61 Tcgcctgtat cttgtcgatg aAAGGtGAGA CGctcgaggg agTTGACGGC TAGCTCAGTC
+      121 CTAGGTACAG TGCTAGCgta cTTGTTTAAC TTTAAGAAGG AGatatacaA TGGTAGCCCG
+      181 TAAAGGCGAg GAGCTGTTCA CTGGTGTCGT CCCTATTCTG GTGGAACTGG ATGGTGATGT
+      241 CAACGGTCAT AAGTTTTCCG TGCGTGGCGA GGGTGAAGGT GACGCAACTA ATGGTAAACT
+      301 GACGCTGAAG TTCATCTGTA CTACTGGTAA ACTGCCGGTA CCTTGGCCGA CTCTGGTAAC
+      361 GACGCTGACT TATGGTGTTC AGTGCTTTGC TCGTTATCCG GACCATATGA AGCAGCATGA
+      421 CTTCTTCAAG TCCGCCATGC CGGAAGGCTA TGTGCAGGAA CGCACGATTT CCTTTAAGGA
+      481 TGACGGCACG TACAAAACGC GTGCGGAAGT GAAATTTGAA GGCGATACCC TGGTAAACCG
+      541 CATTGAGCTG AAAGGCATTG ACTTTAAAGA AGATGGCAAT ATCCTGGGCC ATAAGCTGGA
+      601 ATACAATTTT AACAGCCACA ATGTTTACAT CACCGCCGAT AAACAAAAAA ATGGCATTAA
+      661 AGCGAATTTT AAAATTCGCC ACAACGTGGA GGATGGCAGC GTGCAGCTGG CTGATCACTA
+      721 CCAGCAAAAC ACTCCAATCG GTGATGGTCC TGTTCTGCTG CCAGACAATC ACTATCTGAG
+      781 CACGCAAAGC GTTCTGTCTA AAGATCCGAA CGAGAAACGC GATCATATGG TTCTGCTGGA
+      841 GTTCGTAACC GCAGCGGGCA TCACGCATGG TATGGATGAA CTGTACAAAG GTTCGTAAct
+      901 tctgactgag ttgcacgctc aattgCGTCT CgATGAATAA CTTCGTATAa tgtatgcTAT
+      961 ACGAACGGTA ggtatatttc tcccctcggg ATGAtGAGAC Cactagt
+//

@@ -1,0 +1,59 @@
+LOCUS       BT1_alpha_amylase_signal 300 bp    DNA     linear   SYN 28-NOV-2023
+DEFINITION  Alpha amylase secretion signal defined as a BT1 part.
+ACCESSION   .
+VERSION     .
+KEYWORDS    Yeast Protein Expression Toolkit, OpenMTA, Golden Gate Assembly, iGEM
+SOURCE      .
+  ORGANISM  .
+            .
+REFERENCE   1  (bases 20 to 250)
+  AUTHORS   Ulrike Obst, Timothy K Lu, Volker Sieber.
+  TITLE     A Modular Toolkit for Generating Pichia pastoris Secretion
+            Libraries.
+  JOURNAL   ACS Synth Biol. 2017 Jun 16;6(6):1016-1025. PMID: 28252957 DOI:
+            10.1021/acssynbio.6b00337
+COMMENT     Codon optimized for Yeast. Sequences were sanitized for PacI, SpeI,
+            BsaI, BbsI, BsmBI, and SapI restriction sites. Parts are flanked by PacI 
+            and SpeI to permit transfer to the SEVA family of vectors. Final sequences 
+            designed by Ian Cavén and Scott Pownall of Open Science Network Society.
+FEATURES             Location/Qualifiers
+     protein_bind    1..8
+                     /label="PacI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    9..14
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     misc_feature    16..19
+                     /label="B"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+     CDS             20..250
+                     /label="BT1_alpha_amylase_signal"
+                     /gene="BT1_alpha_amylase_signal"
+                     /translation="MVAWWSLFLYGLQVAAPALAMRFPSIFTAVLFAASSALAAPVNTT
+                     TEDELEGDFDVAVLPFSASIAAKEEGVSLEKR"
+     misc_feature    252..255
+                     /label="T1"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+     protein_bind    complement(257..262)
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     protein_bind    263..268
+                     /label="SpeI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     misc_feature    269..300
+                     /label="random sequence"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+ORIGIN
+        1 TTAATTAAGG TCTCcTACTa tggtggcatg gtggtcctta ttcttatatg gacttcaagt
+       61 tgctgctcct gcccttgcta tgagatttcc tagtattttc actgctgtgc tatttgccgc
+      121 tagttccgct ctagctgctc cagttaatac tactactgaa gatgaattgg agggtgactt
+      181 cgatgttgct gttctgcctt tttccgcttc tatcgcagcc aaggaagaag gtgtatccct
+      241 agagaagcgt tCCATgGAGA CCACTAGTta gcatagctcc ttgggtatgc gaatgaagtt
+//

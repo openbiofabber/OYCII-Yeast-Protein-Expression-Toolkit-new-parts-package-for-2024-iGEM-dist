@@ -1,0 +1,61 @@
+LOCUS       T1T2_yGST                690 bp    DNA     linear   SYN 30-NOV-2023
+DEFINITION  GST N-terminal solubility enhancer and purification tag from the E.
+            coli Protein Expression Toolkit, defined as a T1T2 part.
+ACCESSION   .
+VERSION     .
+KEYWORDS    Yeast Protein Expression Toolkit, OpenMTA, Golden Gate Assembly, iGEM.
+SOURCE      .
+  ORGANISM  .
+            .
+COMMENT     Codon optimized for Yeast. Sequences were sanitized for PacI, SpeI,
+            BsaI, BbsI, BsmBI, and SapI restriction sites. Parts are flanked by
+            PacI and SpeI to permit transfer to the SEVA family of vectors.
+            Final sequences designed by Ian Cavén and Scott Pownall of Open
+            Science Network Society. Based on a part in the OpenBioeconomy Lab's 
+            E. coli Protein Expression Toolkit.
+FEATURES             Location/Qualifiers
+     protein_bind    1..8
+                     /label="PacI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    9..14
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     misc_feature    16..19
+                     /label="T1"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+     CDS             21..671
+                     /label="T1T2_yGST"
+                     /gene="T1T2_yGST"
+                     /translation="SPILGYWKIKGLVQPTRLLLEYLEEKYEEHLYERDEGDKWRNKKF
+                     ELGLEFPNLPYYIDGDVKLTQSMAIIRYIADKHNMLGGCPKERAEISMLEGAVLDIRYG
+                     VSRIAYSKDFETLKVDFLSKLPEMLKMFEDRLCHKTYLNGDHVTHPDFMLYDALDVVLY
+                     MDPMCLDAFPKLVCFKKRIEAIPQIDKYLKSSKYIAWPLQGWQATFGGGDHPPK"
+     misc_feature    674..677
+                     /label="T2"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+     protein_bind    complement(679..684)
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     protein_bind    685..690
+                     /label="SpeI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+ORIGIN
+        1 TTAATTAAGG TCTCcCCATg tctccaatct tgggttactg gaagattaag ggtcttgttc
+       61 aaccaactag gttgttgctg gaatacttgg aagagaagta cgaggaacac ttgtacgaaa
+      121 gagatgaagg tgacaagtgg cgtaacaaga agtttgagtt gggcttggag tttccaaact
+      181 tgccctacta cattgatggc gatgtcaagt tgactcaatc tatggccatc attcgctaca
+      241 ttgctgataa gcacaacatg ttgggtggtt gtccaaagga acgtgctgag atttctatgt
+      301 tggaaggtgc cgttttggat attcgttacg gtgtctccag aattgcttac tctaaggact
+      361 tcgaaaccct gaaggttgat tttctgtcta agctgccaga aatgctgaag atgttcgagg
+      421 atcgtttgtg tcacaagact tacttgaacg gtgatcacgt tactcatcca gatttcatgc
+      481 tgtacgatgc tttggacgtt gttttgtaca tggacccaat gtgtttggat gctttcccca
+      541 agttggtttg tttcaagaag cgtatcgagg ctattccaca gatcgacaag tacttgaagt
+      601 cctccaagta cattgcttgg ccattgcaag gttggcaagc tacttttggt ggtggtgatc
+      661 atccaccaaa gggGTCAaGA GACCACTAGT
+//

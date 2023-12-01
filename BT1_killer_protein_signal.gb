@@ -1,0 +1,55 @@
+LOCUS       BT1_killer_protein_signal 300 bp    DNA     linear   SYN 30-NOV-2023
+DEFINITION  Killer protein signal sequence from Saccharomyces cerevisiae fused
+            to αMF_no_EAEA defined as a BT1 part.
+ACCESSION   .
+VERSION     .
+KEYWORDS    Yeast Protein Expression Toolkit, OpenMTA, Golden Gate Assembly, iGEM
+SOURCE      .
+  ORGANISM  .
+            .
+COMMENT     Codon optimized for Yeast. Sequences were sanitized for PacI, SpeI,
+            BsaI, BbsI, BsmBI, and SapI restriction sites. Parts are flanked by
+            PacI and SpeI to permit transfer to the SEVA family of vectors.
+            Final sequences designed by Ian Cavén and Scott Pownall of Open
+            Science Network Society.
+FEATURES             Location/Qualifiers
+     protein_bind    1..8
+                     /label="PacI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    9..14
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     misc_feature    16..19
+                     /label="B"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+     CDS             20..268
+                     /label="BT1_killer_protein_signal"
+                     /gene="BT1_killer_protein_signal"
+                     /translation="MTKPTQVLVRSVSILFFITLLHLVVAMRFPSIFTAVLFAASSALA
+                     APVNTTTEDELEGDFDVAVLPFSASIAAKEEGVSLEKR"
+     misc_feature    270..273
+                     /label="T1"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+     protein_bind    complement(275..280)
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     protein_bind    281..286
+                     /label="SpeI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     misc_feature    287..300
+                     /label="random sequence"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+ORIGIN
+        1 TTAATTAAGG TCTCcTACTa tgaccaaacc aacgcaagtc ttagttcgtt cagtctctat
+       61 tttattcttc atcacactgt tgcacttggt tgttgcaatg agatttccta gtattttcac
+      121 tgctgtgcta tttgccgcta gttccgctct agctgctcca gttaatacta ctactgaaga
+      181 tgaattggag ggtgacttcg atgttgctgt tctgcctttt tccgcttcta tcgcagccaa
+      241 ggaagaaggt gtatccctag agaagcgttC CATgGAGACC ACTAGTgcag cttggttctt
+//

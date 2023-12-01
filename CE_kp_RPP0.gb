@@ -1,0 +1,67 @@
+LOCUS       CE_kp_RPP0               972 bp    DNA     linear   SYN 30-NOV-2023
+DEFINITION  Komagataella phaffi (Pichia pastoris) RPP0 accessory protein for
+            improving heterologous protein expression., defined as a CE part.
+ACCESSION   .
+VERSION     .
+KEYWORDS    Yeast Protein Expression Toolkit, OpenMTA, Golden Gate Assembly, iGEM
+SOURCE      .
+  ORGANISM  .
+            .
+COMMENT     Codon optimized for Yeast. Sequences were sanitized for PacI, SpeI,
+            BsaI, BbsI, BsmBI, and SapI restriction sites. Parts are flanked by
+            PacI and SpeI to permit transfer to the SEVA family of vectors.
+            Final sequences designed by Ian Cavén and Scott Pownall of Open
+            Science Network Society.
+FEATURES             Location/Qualifiers
+     protein_bind    1..8
+                     /label="PacI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    9..14
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     misc_feature    16..19
+                     /label="C"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+     CDS             17..952
+                     /label="CE_kp_RPP0"
+                     /gene="CE_kp_RPP0"
+                     /translation="MGGINEKKAEYFNKLRELLESYKSIFIVGVDNVSSQQMHEVRQTL
+                     RGKAVILMGKNTMVRKALRDFVEELPVFEKLLPFVRGNIGFVFTNEDLKTIRDVIIENR
+                     VAAPARPGAIAPLDVFIPAGNTGMEPGKTSFFQALGVPTKISRGTIEITSDVKVVEKDS
+                     RVGPSEAQLLNMLNISPFTYGLTVVQVFDDGQVFPANILDITDDELLSHFTSAISTIAQ
+                     ISLAAGYPTLPSVGHSVVNHYKNVLAVSIATDYSFEGSEAIKDRLANPEAYAAAAPAAG
+                     EASAGAEETAAAAEEEDEESEDDDMGFGLFD"
+     misc_feature    956..959
+                     /label="E"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+     protein_bind    complement(961..966)
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     protein_bind    967..972
+                     /label="SpeI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+ORIGIN
+        1 TTAATTAAGG TCTCcAatgg gaggtatcaa cgaaaagaaa gccgagtact ttaacaagct
+       61 cagagagctt ttggaatctt acaagtccat ctttattgtc ggtgttgaca atgtctcctc
+      121 tcagcaaatg cacgaggtca gacagactct ccgtggtaaa gctgtgattc ttatgggtaa
+      181 gaacaccatg gtcagaaagg ccttgagaga cttcgtcgag gagctcccag tctttgagaa
+      241 gctgttgcct ttcgtcagag gtaacattgg tttcgttttc accaacgagg acttgaaaac
+      301 catcagagat gtgatcatcg agaacagagt cgctgcccca gccagaccag gtgctatcgc
+      361 tcctttggat gttttcattc ctgccggtaa cactggtatg gaaccaggta agacctcttt
+      421 cttccaagct cttggtgtcc caaccaagat ttccagaggt accattgaga tcaccagtga
+      481 tgttaaggtt gttgagaaag actccagagt tggtccttcc gaggctcaat tgttgaacat
+      541 gttgaacatc tctcctttca cctacggttt gactgttgtt caagttttcg acgatggaca
+      601 agttttccca gctaacattt tggacatcac cgatgacgag ctgttgtctc acttcacctc
+      661 tgccatctct accattgccc aaatctcttt ggctgctggt tacccaactt tgccatccgt
+      721 tggtcactct gttgtcaacc actacaagaa tgttttggct gtctccattg ctactgacta
+      781 ctcctttgag ggttctgaag ctatcaagga cagattggct aaccctgagg cttacgctgc
+      841 tgctgctcct gctgccggtg aggcttctgc tggtgccgag gagactgctg ccgctgctga
+      901 ggaggaggac gaagagtctg aggacgacga catgggattc ggtttgtttg attaaGCTTc
+      961 GAGACCACTA GT
+//

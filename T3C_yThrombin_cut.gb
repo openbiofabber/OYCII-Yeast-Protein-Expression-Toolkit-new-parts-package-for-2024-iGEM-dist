@@ -1,0 +1,51 @@
+LOCUS       T3C_yThrombin_cut        300 bp    DNA     linear   SYN 30-NOV-2023
+DEFINITION  Thrombin is a serine protease (EC 3.4.21.5) that cleaves proteins
+            between the arginine and glycine residues of the cleavage site
+            Leu-Val-Pro-Arg-Gly-Ser.
+ACCESSION   .
+VERSION     .
+KEYWORDS    Yeast Protein Expression Toolkit, OpenMTA, Golden Gate Assembly, iGEM.
+SOURCE      .
+  ORGANISM  .
+            .
+COMMENT     Codon optimized for Yeast. Sequences were sanitized for PacI, SpeI,
+            BsaI, BbsI, BsmBI, and SapI restriction sites. Parts are flanked by
+            PacI and SpeI to permit transfer to the SEVA family of vectors.
+            Final sequences designed by Ian Cavén and Scott Pownall of Open
+            Science Network Society.
+FEATURES             Location/Qualifiers
+     protein_bind    1..8
+                     /label="PacI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    9..14
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     misc_feature    16..19
+                     /label="T3"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+     CDS             22..42
+                     /label="T3C_yThrombin_cut"
+                     /gene="T3C_yThrombin_cut"
+                     /translation="GLVPRGS"
+     misc_feature    45..48
+                     /label="C"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+     protein_bind    complement(50..55)
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     protein_bind    56..61
+                     /label="SpeI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+ORIGIN
+        1 TTAATTAAGG TCTCcTCCAg cggtttggtt ccaagaggta gtggAATGaG AGACCACTAG
+       61 Tgctgaaagt gcaataccta ggtagggcat ggttaggacc tttgccgatg tagtcgggat
+      121 tcgctaactg gtaacataac agctgacgtg cgcattgcaa tgtcagtggg tcagcctgtt
+      181 tccgctggag gcggtcgcgt ggccacttta caacgggcaa aataccatgt tgtctagtgc
+      241 ttagaattac tcagtctgcc aaacgtagat tgttttcctc ccatccggct tgttgttgcg
+//

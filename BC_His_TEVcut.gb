@@ -1,0 +1,54 @@
+LOCUS       BC_His_TEVcut            300 bp    DNA     linear   SYN 28-NOV-2023
+DEFINITION  A His/TEV N-terminal purification tag and cleavage linker, defined 
+            as a BC part. 
+ACCESSION   .
+VERSION     .
+KEYWORDS    Yeast Protein Expression Toolkit, OpenMTA, Golden Gate Assembly, iGEM
+SOURCE      .
+  ORGANISM  .
+            .
+COMMENT     Codon optimized for Yeast. Sequences were sanitized for PacI, SpeI,
+            BsaI, BbsI, BsmBI, and SapI restriction sites. Parts are flanked by 
+            PacI and SpeI to permit transfer to the SEVA family of vectors. Final 
+            sequences designed by Ian Cavén and Scott Pownall of Open Science 
+            Network Society.
+FEATURES             Location/Qualifiers
+     protein_bind    1..8
+                     /label="PacI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    9..14
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     misc_feature    16..19
+                     /label="B"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+     CDS             20..82
+                     /label="BC_His_TEVcut"
+                     /gene="BC_His_TEVcut"
+                     /translation="MGSSHHHHHHSSGGENLYFQG"
+     misc_feature    85..88
+                     /label="C"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+     protein_bind    complement(90..95)
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     protein_bind    96..101
+                     /label="SpeI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     misc_feature    102..300
+                     /label="random sequence"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+ORIGIN
+        1 TTAATTAAGG TCTCcTACTa tgggatcttc tcatcaccat catcatcatt cctctggagg
+       61 agagaacttg tattttcagg gtggAATGaG AGACCACTAG Ttgagagagg ccctacaagg
+      121 aaatagcgta ctttagttcg gacgcccagt gttcacaagg acaccgcccc agatcgtact
+      181 atcatgtatt cctgcgatgg cctcaataat tgccttacca gtgaactgtc actgaatcac
+      241 ctaccgcttt cgtgctttac tgtaaacagg gatcacccag ctctattggg taccacccac
+//

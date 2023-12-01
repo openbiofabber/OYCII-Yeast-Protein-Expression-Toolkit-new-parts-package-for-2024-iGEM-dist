@@ -1,0 +1,62 @@
+LOCUS       CE_ymScarlet3            723 bp    DNA     linear   SYN 30-NOV-2023
+DEFINITION  mScarlet3 codon optimized for yeast (Saccharomyces, Pichia &
+            Yarrowia) as a CE part.
+ACCESSION   .
+VERSION     .
+KEYWORDS    Yeast Protein Expression Toolkit, OpenMTA, Golden Gate Assembly, iGEM
+SOURCE      .
+  ORGANISM  .
+            .
+COMMENT     Codon optimized for Yeast. Sequences were sanitized for PacI, SpeI,
+            BsaI, BbsI, BsmBI, and SapI restriction sites. Parts are flanked by
+            PacI and SpeI to permit transfer to the SEVA family of vectors.
+            Final sequences designed by Ian Cavén and Scott Pownall of Open
+            Science Network Society.
+FEATURES             Location/Qualifiers
+     protein_bind    1..8
+                     /label="PacI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    9..14
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     misc_feature    16..19
+                     /label="C"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+     CDS             17..703
+                     /label="CE_ymScarlet3"
+                     /gene="CE_ymScarlet3"
+                     /translation="MDSTEAVIKEFMRFKVHMEGSMNGHEFEIEGEGEGRPYEGTQTAK
+                     LRVTKGGPLPFSWDILSPQFMYGSRAFTKHPADIPDYWKQSFPEGFKWERVMNFEDGGA
+                     VSVAQDTSLEDGTLIYKVKLRGTNFPPDGPVMQKKTMGWEASTERLYPEDVVLKGDIKM
+                     ALRLKDGGRYLADFKTTYRAKKPVQMPGAFNIDRKLDITSHNEDYTVVEQYERSVARHS
+                     TGGSGGS"
+     misc_feature    707..710
+                     /label="E"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+     protein_bind    complement(712..717)
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     protein_bind    718..723
+                     /label="SpeI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+ORIGIN
+        1 TTAATTAAGG TCTCcAATGg actctactga agctgtgatc aaggagttca tgagattcaa
+       61 ggttcacatg gaaggctcta tgaacggtca tgaattcgaa atcgagggtg aaggtgaagg
+      121 tagaccttac gaaggtactc agactgctaa gttgagagtt accaagggtg gtcctttgcc
+      181 tttttcttgg gatatcctgt ctcctcagtt tatgtacggt tccagagcct tcactaagca
+      241 tcctgctgat attcctgact actggaagca gtcttttcct gaaggtttca agtgggagag
+      301 agtgatgaac tttgaagatg gtggtgctgt ttctgttgct caggatactt ctctggaaga
+      361 tggtactctg atctacaagg tgaagttgag aggtactaac ttccctcctg atggtccTgt
+      421 tatgcagaag aaaactatgg gttgggaagc ctctactgaa agattgtacc ctgaggatgt
+      481 tgttctgaag ggtgacatta agatggctct gagattgaag gatggtggta gatacttggc
+      541 tgatttcaag accacctaca gagctaagaa gcctgttcag atgcctggtg ctttcaacat
+      601 cgacagaaag ttggacatca cttctcataa cgaggattac actgtggtgg aacagtacga
+      661 aagatctgtt gctagacact ctactggtgg ttctggtggt tcttaaGCTT cGAGACCACT
+      721 AGT
+//

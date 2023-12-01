@@ -1,0 +1,63 @@
+LOCUS       T1T2_y_xynC              714 bp    DNA     linear   SYN 30-NOV-2023
+DEFINITION  Thermally stable and alkalophilic xylanase from Neocallimastix
+            patriciarum as a T1T2 part codon optimized for Pichia pastoris and
+            used as a highly expressed fusion protein partner, defined as a T1T2
+            part.
+ACCESSION   .
+VERSION     .
+KEYWORDS    Yeast Protein Expression Toolkit, OpenMTA, Golden Gate Assembly, iGEM
+SOURCE      .
+  ORGANISM  .
+            .
+COMMENT     Codon optimized for Yeast. Sequences were sanitized for PacI, SpeI,
+            BsaI, BbsI, BsmBI, and SapI restriction sites. Parts are flanked by
+            PacI and SpeI to permit transfer to the SEVA family of vectors.
+            Final sequences designed by Ian Cavén and Scott Pownall of Open
+            Science Network Society.
+FEATURES             Location/Qualifiers
+     protein_bind    1..8
+                     /label="PacI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    9..14
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     misc_feature    16..19
+                     /label="T1"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+     CDS             21..695
+                     /label="T1T2_y_xynC"
+                     /gene="T1T2_y_xynC"
+                     /translation="QSFCSSASHSGQSVKETGNKVGTIGGVGYELWADSGNNSATFYSD
+                     GSFSCTFQNAGDYLCRSGLSFDSTKTPSQIGRMKADFKLVKQNISNVGYSYVGVYGWTR
+                     SPLVEYYIVDNWLSPSPPGDWVGNKKHGSFTIDGAQYTVYENTRTGPSIDGNTTFKQYF
+                     SIRQQARDCGTIDISAHFDQWEKLGMTMGKLHEAKVLGEAGNGNGGVSGTADFPYAKVY
+                     IGD"
+     misc_feature    698..701
+                     /label="T2"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+     protein_bind    complement(703..708)
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     protein_bind    709..714
+                     /label="SpeI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+ORIGIN
+        1 TTAATTAAGG TCTCcCCATg cagagctttt gcagcagcgc gagccatagc ggccagagtg
+       61 tgaaagaaac cggcaataaa gtgggcacca ttggcggcgt gggctatgaa ctgtgggcgg
+      121 atagcggcaa taatagcgcg accttttata gcgatggcag ctttagctgc acctttcaga
+      181 atgcgggcga ttatctgtgc cgcagcggcc tgagctttga tagcaccaaa accccgagcc
+      241 agattggccg catgaaagcg gatttcaagc tggtgaaaca gaacatcagc aatgtgggct
+      301 atagctatgt gggcgtgtat ggctggaccc gcagcccact ggtggaatat tatatcgtgg
+      361 acaactggct gagcccgagc ccaccaggtg attgggtggg caataagaaa cacggcagct
+      421 ttaccattga cggcgcgcag tataccgtgt atgaaaatac ccgcaccggc ccgagcattg
+      481 atggcaacac cacctttaag cagtacttca gcattcgcca gcaggcgcgc gattgcggca
+      541 ccattgatat tagcgcgcat tttgatcagt gggaaaaact gggcatgacc atgggcaaac
+      601 tgcatgaagc gaaagtgctg ggcgaagcgg gcaatggcaa tggcggcgtg agcggtaccg
+      661 cggattttcc gtatgcgaaa gtgtatattg gcgatggGTC AcGAGACCAC TAGT
+//

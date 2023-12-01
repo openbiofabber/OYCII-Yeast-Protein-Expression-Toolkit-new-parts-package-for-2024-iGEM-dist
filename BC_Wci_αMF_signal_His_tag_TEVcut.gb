@@ -1,0 +1,60 @@
+LOCUS       BC_Wci_αMF_signal_His_tag_TEVcut 365 bp    DNA     linear   SYN 28-NOV-2023
+DEFINITION  W. ciferrii alpha mating factor secretion signal with His
+            purification tag and TEV cleavage linker. Defined as a BC part.
+ACCESSION   .
+VERSION     .
+KEYWORDS    Yeast Protein Expression Toolkit, OpenMTA, Golden Gate Assembly, iGEM
+SOURCE      .
+  ORGANISM  .
+            .
+REFERENCE   1  (bases 20 to 346)
+  AUTHORS   Chenwei Zou, Lingfang Lu, Shengyan Wang, Chenshan Zhang, Xuequn
+            Chen, Yao Lin and Yide Huang
+  TITLE     The α-mating factor secretion signals and endogenous signal peptides
+            for recombinant protein secretion in Komagataella phaffii.
+  JOURNAL   Biotechnol Biofuels Bioprod. 2022 Dec 16;15(1):140. PMID: 36527112
+            PMCID: PMC9756452 DOI: 10.1186/s13068-022-02243-6
+COMMENT     Codon optimized for Yeast. Sequences were sanitized for PacI, SpeI,
+            BsaI, BbsI, BsmBI, and SapI restriction sites. Parts are flanked by PacI 
+            and SpeI to permit transfer to the SEVA family of vectors. Final sequences 
+            designed by Ian Cavén and Scott Pownall of Open Science Network Society.
+FEATURES             Location/Qualifiers
+     protein_bind    1..8
+                     /label="PacI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    9..14
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     misc_feature    16..19
+                     /label="B"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+     CDS             20..346
+                     /label="BC_Wci_αMF_signal_His_tag_TEVcut"
+                     /gene="BC_Wci_αMF_signal_His_tag_TEVcut"
+                     /translation="MQLSLLTSLAIVSTLLGSSFAAPVENINIKDNGNGTSEADVPGTS
+                     QGVEFPFAKEAIIEAVSLGNDIAPIVLNDAVYFVNTTTVDKELESKLGKRGHHHHHHGE
+                     NLYFQ"
+     misc_feature    349..352
+                     /label="C"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+     protein_bind    complement(354..359)
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     protein_bind    360..365
+                     /label="SpeI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+ORIGIN
+        1 TTAATTAAGG TCTCcTACTa tgcaactttc tttactaact tctttggcca ttgtttccac
+       61 tttactaggc tcttcgtttg ctgctccagt ggagaatatc aatatcaaag acaatggcaa
+      121 tggcaccagt gaagctgatg ttcctggaac ttctcaaggt gttgagtttc cgtttgccaa
+      181 agaagccatc attgaagctg tttctttagg caatgatatt gctccaattg ttctcaatga
+      241 tgctgtttat tttgtcaata ccaccactgt tgacaaagag ctggaaagca aacttggcaa
+      301 acgaggacat caccatcacc atcacggaga gaatctgtac tttcaaggAA TGgGAGACCA
+      361 CTAGT
+//

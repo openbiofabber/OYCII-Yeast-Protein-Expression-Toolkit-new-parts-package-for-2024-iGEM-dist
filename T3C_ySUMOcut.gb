@@ -1,0 +1,53 @@
+LOCUS       T3C_ySUMOcut             337 bp    DNA     linear   SYN 30-NOV-2023
+DEFINITION  Small ubiquitin-like modifier (SUMO) protease cleavage domain from
+            the E. coli Protein Expression Toolkit, defined as a T3C part.
+ACCESSION   .
+VERSION     .
+KEYWORDS    Yeast Protein Expression Toolkit, OpenMTA, Golden Gate Assembly, iGEM.
+SOURCE      .
+  ORGANISM  .
+            .
+COMMENT     Codon optimized for Yeast. Sequences were sanitized for PacI, SpeI,
+            BsaI, BbsI, BsmBI, and SapI restriction sites. Parts are flanked by
+            PacI and SpeI to permit transfer to the SEVA family of vectors.
+            Final sequences designed by Ian Cavén and Scott Pownall of Open
+            Science Network Society. Based on a part in the OpenBioeconomy Lab's 
+            E. coli Protein Expression Toolkit.
+FEATURES             Location/Qualifiers
+     protein_bind    1..8
+                     /label="PacI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    9..14
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     misc_feature    16..19
+                     /label="T3"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+     CDS             22..318
+                     /label="T3C_ySUMOcut"
+                     /gene="T3C_ySUMOcut"
+                     /translation="DSEVNQEAKPEVKPEVKPETHINLKVSDGSSEIFFKIKKTTPLRR
+                     LMEAFAKRQGKEMDSLRFLYDGIRIQADQTPEDLDMEDNDIIEAHREQIGGATY"
+     misc_feature    321..324
+                     /label="C"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+     protein_bind    complement(326..331)
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     protein_bind    332..337
+                     /label="SpeI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+ORIGIN
+        1 TTAATTAAGG TCTCcTCCAg cgattctgaa gttaaccagg aagctaagcc agaagttaaa
+       61 ccagaagtga agccagaaac ccatatcaac ctgaaagtct ctgatggctc ctccgagatc
+      121 ttcttcaaga tcaaaaagac caccccattg aggagattga tggaagcatt tgccaaaaga
+      181 cagggcaaag aaatggattc cctgcgcttt ctgtatgatg gaattaggat tcaggccgat
+      241 caaactccag aggatttgga catggaggat aacgacatta tcgaagccca tagagaacag
+      301 attggaggag ctacttatgg AATGaGAGAC CACTAGT
+//

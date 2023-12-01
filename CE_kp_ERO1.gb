@@ -1,0 +1,81 @@
+LOCUS       CE_kp_ERO1              1617 bp    DNA     linear   SYN 30-NOV-2023
+DEFINITION  Komagataella phaffi (Pichia pastoris) ERO1 accessory protein for
+            improving heterologous protein expression., defined as a CE part.
+ACCESSION   .
+VERSION     .
+KEYWORDS    Yeast Protein Expression Toolkit, OpenMTA, Golden Gate Assembly, iGEM
+SOURCE      .
+  ORGANISM  .
+            .
+COMMENT     Codon optimized for Yeast. Sequences were sanitized for PacI, SpeI,
+            BsaI, BbsI, BsmBI, and SapI restriction sites. Parts are flanked by
+            PacI and SpeI to permit transfer to the SEVA family of vectors.
+            Final sequences designed by Ian Cavén and Scott Pownall of Open
+            Science Network Society.
+FEATURES             Location/Qualifiers
+     protein_bind    1..8
+                     /label="PacI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    9..14
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     misc_feature    16..19
+                     /label="C"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+     CDS             17..1597
+                     /label="CE_kp_ERO1"
+                     /gene="CE_kp_ERO1"
+                     /translation="MRIVRSVAIAIACHCITALANPQIPFDGNYTEIIVPDTEVNIGQI
+                     VDINHEIKPKLVELVNTDFFKYYKLNLWKPCPFWNGDEGFCKYKDCSVDFITDWSQVPD
+                     IWQPDQLGKLGDNTVHKDKGQDENELSSNDYCALDKDDDEDLVYVNLIDNPERFTGYGG
+                     QQSESIWTAVYDENCFQPNEGSQLGQVEDLCLEKQIFYRLVSGLHSSISTHLTNEYLNL
+                     KNGAYEPNLKQFMIKVGYFTERIQNLHLNYVLVLKSLIKLQEYNVIDNLPLDDSLKAGL
+                     SGLISQGAQGINQSSDDYLFNEKVLFQNDQNDDLKNEFRDKFRNVTRLMDCVHCERCKL
+                     WGKLQTTGYGTALKILFDLKNPNDSINLKRVELVALVNTFHRLSKSVESIENFEKLYKI
+                     QPPTQDRASASSESLGLFDNEDEQNLLNSFSVDQAVISSKEAPEEIKSKPVGKAAYKQN
+                     SCPSLGSKSIKEAFHEELHAFIDAIGFILNSYRTLPKLLYTLFLVKSSELWDIFIGTQR
+                     HRDTTYRVDL"
+     misc_feature    1601..1604
+                     /label="E"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+     protein_bind    complement(1606..1611)
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     protein_bind    1612..1617
+                     /label="SpeI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+ORIGIN
+        1 TTAATTAAGG TCTCcAatga ggatagtaag gagcgtagct atcgcaatag cctgtcattg
+       61 tataacagcg ttagcaaacc ctcaaatccc ttttgacggc aactacaccg agatcatcgt
+      121 gccagatacc gaagttaaca tcggacagat tgtagatatt aaccacgaaa taaaacccaa
+      181 actggtggaa ctggtcaaca cagacttctt caaatattac aaattaaacc tatggaaacc
+      241 atgtccgttt tggaatggtg atgagggatt ctgcaagtat aaggattgct ctgtcgactt
+      301 tatcactgat tggtcccagg tgcctgatat ctggcaacca gaccaattgg gtaagcttgg
+      361 agataacacg gtacataagg ataagggcca agatgaaaat gagctgtcct caaatgatta
+      421 ttgcgctttg gataaagacg acgatgaaga tttagtatat gtcaatttga ttgataaccc
+      481 tgaaagattc accggttatg gtggtcagca atctgaatct atttggactg cggtctatga
+      541 tgagaactgt ttccagccga atgaaggatc acaattgggt caagttgagg acctctgttt
+      601 ggagaaacag atcttttacc gattggtttc tggtttgcat tctagtatct ccacccacct
+      661 cacaaacgaa tatctgaatt tgaaaaatgg agcatacgaa ccaaatttga aacagttcat
+      721 gatcaaagtt gggtatttta ctgaaagaat tcaaaactta catctcaatt atgtccttgt
+      781 attgaagtca ctaataaagc tacaagaata caatgttatc gacaatctac ctctcgatga
+      841 ctctttgaaa gctggtctta gcggtttaat atctcaagga gcacagggta ttaaccagag
+      901 ctctgatgat tatctattta acgagaaggt tcttttccaa aatgaccaaa atgatgattt
+      961 gaaaaatgaa ttccgtgaca aattccgcaa cgtgactaga ttaatggatt gtgtccattg
+     1021 cgagagatgc aaattatggg gaaaattgca aactacaggg tacgggactg cattgaagat
+     1081 tctatttgat ttgaagaatc ctaatgactc catcaattta aagagagttg agttagttgc
+     1141 tctagtcaac acattccata gattgtccaa atctgttgaa agcattgaaa actttgaaaa
+     1201 actatataag attcaaccgc caacgcagga tcgtgcatca gcgtcgtccg aatccttagg
+     1261 ccttttcgat aacgaagatg aacaaaatct cctcaactcg ttttcggttg atcaggcagt
+     1321 catttcatcg aaagaggcac cagaagaaat caaaagcaaa cctgttggaa aagccgcata
+     1381 taaacaaaac agttgtccat cattgggttc aaaatctatc aaagaagcat tccatgaaga
+     1441 acttcacgca tttattgatg caattggatt tatattgaac tcttacagga ctttgcccaa
+     1501 gctgttgtac acacttttcc tcgttaaatc atctgaatta tgggacattt tcattggcac
+     1561 tcaaaggcac cgagatacca catatagagt agacttgtaa GCTTaGAGAC CACTAGT
+//

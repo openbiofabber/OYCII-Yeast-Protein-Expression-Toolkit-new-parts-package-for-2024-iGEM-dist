@@ -1,0 +1,55 @@
+LOCUS       T1T2_yR5                 300 bp    DNA     linear   SYN 30-NOV-2023
+DEFINITION  Silaffin silica binding domain N-terminal purification tag from the
+            E. coli Protein Expression Toolkit, defined as a T1T2 part.
+ACCESSION   .
+VERSION     .
+KEYWORDS    Yeast Protein Expression Toolkit, OpenMTA, Golden Gate Assembly, iGEM.
+SOURCE      .
+  ORGANISM  .
+            .
+COMMENT     Codon optimized for Yeast. Sequences were sanitized for PacI, SpeI,
+            BsaI, BbsI, BsmBI, and SapI restriction sites. Parts are flanked by
+            PacI and SpeI to permit transfer to the SEVA family of vectors.
+            Final sequences designed by Ian Cavén and Scott Pownall of Open
+            Science Network Society. Based on a part in the OpenBioeconomy Lab's 
+            E. coli Protein Expression Toolkit.
+FEATURES             Location/Qualifiers
+     protein_bind    1..8
+                     /label="PacI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    9..14
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     misc_feature    16..19
+                     /label="T1"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+     CDS             21..77
+                     /label="T1T2_yR5"
+                     /gene="T1T2_yR5"
+                     /translation="SSKKSGSYSGSKGSKRRIL"
+     misc_feature    80..83
+                     /label="T2"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+     protein_bind    complement(85..90)
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     protein_bind    91..96
+                     /label="SpeI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     misc_feature    97..300
+                     /label="random sequence"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+ORIGIN
+        1 TTAATTAAGG TCTCcCCATg tcctctaaga agtctggttc ttactctggt tccaagggtt
+       61 ctaagcgtag aattttgggG TCAaGAGACC ACTAGTtaga gcagctctaa tgcctcctgc
+      121 agtgacgtct gtcatcccct acttccgctt cgtccatgcc cactaatgag ctgtaccatt
+      181 cgtgtaggcc accgacttac gtagtaggag gatagaatgt ccaacgtacc acgccacctt
+      241 ccggtgagtt gtgtgccagc ctaataaacc tatagttccc ctaatactaa ccatcgtggt
+//

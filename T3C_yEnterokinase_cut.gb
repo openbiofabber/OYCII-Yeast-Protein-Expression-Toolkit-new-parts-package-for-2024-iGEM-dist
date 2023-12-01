@@ -1,0 +1,55 @@
+LOCUS       T3C_yEnterokinase_cut    300 bp    DNA     linear   SYN 30-NOV-2023
+DEFINITION  Enterokinase is a serine protease (EC 3.4.21.9) that cleaves
+            proteins following the lysine at the cleavage site
+            Asp-Asp-Asp-Asp-Lys.
+ACCESSION   .
+VERSION     .
+KEYWORDS    Yeast Protein Expression Toolkit, OpenMTA, Golden Gate Assembly, iGEM.
+SOURCE      .
+  ORGANISM  .
+            .
+COMMENT     Codon optimized for Yeast. Sequences were sanitized for PacI, SpeI,
+            BsaI, BbsI, BsmBI, and SapI restriction sites. Parts are flanked by
+            PacI and SpeI to permit transfer to the SEVA family of vectors.
+            Final sequences designed by Ian Cavén and Scott Pownall of Open
+            Science Network Society.
+FEATURES             Location/Qualifiers
+     protein_bind    1..8
+                     /label="PacI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    9..14
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     misc_feature    16..19
+                     /label="T3"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+     CDS             22..39
+                     /label="T3C_yEnterokinase_cut"
+                     /gene="T3C_yEnterokinase_cut"
+                     /translation="GDDDDK"
+     misc_feature    42..45
+                     /label="C"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+     protein_bind    complement(47..52)
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     protein_bind    53..58
+                     /label="SpeI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     misc_feature    59..300
+                     /label="random sequence"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+ORIGIN
+        1 TTAATTAAGG TCTCcTCCAg cggtgatgac gatgacaagg gAATGaGAGA CCACTAGTga
+       61 gtcggccact gcgcgaagaa tgtagaagga gcgactttgc gcaagccttg ggtctgcact
+      121 tgtaccgcca ctgaggcgac attacgtctg cgagagtatc actaattgcg gtgaccaatg
+      181 ttaggttctg caaccttgga gactcgttga cgtaaacagc tcgcatctaa ggacgaatcc
+      241 tcaggaactt gggctgtgcg attcgaagct cgactggtgc tgacggtaac gtgctggcgg
+//
