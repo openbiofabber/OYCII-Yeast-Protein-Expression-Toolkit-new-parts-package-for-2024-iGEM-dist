@@ -1,7 +1,8 @@
 # iGEM Distribution Github License
 
 ## Distribution
-The contents of the iGEM Distribution Github repository are available under the [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/)
+The contents of the iGEM Distribution Github repository are available under the [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/).
+The DNA parts themselves are released under the OpenMTA (https://biobricks.org/openmta/).
 
 ## Scripting Code 
 MIT License
